@@ -1,0 +1,100 @@
+header {
+    background-color: #ee539f;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #c84786;
+}
+
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 4% 4%;
+    padding: 15px;
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url('../img/sandalia-1.webp');
+}
+
+#img-2 {
+    background-image: url('../img/sandalia-2.webp');
+}
+
+#img-3 {
+    background-image: url('../img/sandalia-3.jpg');
+}
+
+#img-4 {
+    background-image: url('../img/sandalia-4.webp');
+}
+
+#img-5 {
+    background-image: url('../img/sandalia-5.webp');
+}
+
+#img-6 {
+    background-image: url('../img/sandalia-6.webp');
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #ee539f;
+    font-size: 24px;
+    border-left: 4px solid #ee539f;
+    padding-left: 7px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition: .5s;
+    text-transform: uppercase;
+    background-color: #ee539f;
+    color: #ffffff;
+
+}
+
+.btn:hover {
+    background-color: #c84786;
+}
+
+footer {
+    background-color: #ee539f;
+    color: #ffffff;
+    border-top: 3px solid #c84786;
+    text-align: center;
+    padding: 80px;
+}
